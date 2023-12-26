@@ -28,7 +28,8 @@ I am using something similar to this board:
 
 https://www.amazon.co.uk/Module-Conversion-Arduino-Adapter-Reader/dp/B08P5JJDZK/ref=sr_1_3?crid=DUD4KNKPFTNH&keywords=sd%2Bcard%2Breader%2Barduino%2B3v&qid=1703597266&sprefix=%2Caps%2C207&sr=8-3&th=1
 
-I power it using 5V, and obviously control it using pico's 3v3 gpios.
+I power it using 5V, and obviously control it using pico's 3v3 gpios. It didn't work when VCC
+was connected to 3v3
 
 # How to get it working
 
