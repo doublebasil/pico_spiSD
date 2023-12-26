@@ -14,6 +14,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
+    pico_cyw43_arch_none
     # You'll need to link other libraries for other pico functions
     )
 

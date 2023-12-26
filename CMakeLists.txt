@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.18)
 
 set(PROJECT_NAME pico_w_project)
-set(PICO_BOARD pico) # You may need to change this to pico_w
+set(PICO_BOARD pico_w) # You may need to change this to pico_w
 
 include(submodules/pico-sdk/external/pico_sdk_import.cmake)
 
