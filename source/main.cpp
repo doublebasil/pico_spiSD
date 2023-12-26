@@ -132,7 +132,7 @@ int main( void )
         printf( "File closed ok!\n" );
 
     f_unmount( "0:" );
-    printf( "File closed ok!\n" );
+    printf( "SD card unmounted!\n" );
 
     // If you see flashing lights, no errors!
     while (true) {
